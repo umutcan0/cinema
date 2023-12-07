@@ -1,11 +1,13 @@
-package com.example.cinema.entities;
+package com.example.cinema.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @Entity
-@Table(name="film")
+@Table(name="films")
 public class Film {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
@@ -21,4 +23,10 @@ public class Film {
     @Column
     private String actors;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id") //
+    private Category categories;
+
+    @OneToMany(mappedBy = "film", cascade = CascadeType.ALL)
+    private List<Comment> comments;
 }
