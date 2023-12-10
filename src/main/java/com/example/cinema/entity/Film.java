@@ -3,7 +3,9 @@ package com.example.cinema.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Data
 @Entity
@@ -29,4 +31,8 @@ public class Film {
 
     @OneToMany(mappedBy = "film", cascade = CascadeType.ALL)
     private List<Comment> comments;
+
+    @ManyToMany(mappedBy = "films")
+    private Set<User> users = new HashSet<>();
+
 }
