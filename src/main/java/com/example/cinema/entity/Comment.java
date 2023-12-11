@@ -19,9 +19,9 @@ public class Comment {
 
     @ManyToOne
     @JoinColumn(name = "film_id") //
-    private Film film;
+    private Film films;
 
-    @OneToMany(mappedBy = "comment", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "comments", cascade = CascadeType.ALL)
     private List<User> users;
 
 }

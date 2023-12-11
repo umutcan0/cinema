@@ -29,7 +29,7 @@ public class Film {
     @JoinColumn(name = "category_id") //
     private Category categories;
 
-    @OneToMany(mappedBy = "film", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "films", cascade = CascadeType.ALL)
     private List<Comment> comments;
 
     @ManyToMany(mappedBy = "films")

@@ -16,7 +16,7 @@ public class FilmController {
     @Autowired
     private FilmService filmService;
 
-    @GetMapping("/{id}")//{} -> dinamik variable olduğunu belirtir
+    @GetMapping("/{id}")
     public ResponseEntity<Film> getFilm(@PathVariable Long id) {
         Film film = filmService.getFilm(id);
         return ResponseEntity.status(HttpStatus.OK).body(film);
