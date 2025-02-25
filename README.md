@@ -63,17 +63,6 @@ Cinema
  http://localhost:8080/swagger-ui.html
 
 
-📌 API Endpoints
-
-GET
-
-POST
-
-PUT
-
-DELETE
-
-
 ✅ Future Enhancements
 
 🎟 User Authentication & Authorization
