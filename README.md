@@ -1,5 +1,7 @@
 Cinema - A Modern Movie Management System
 
+📌 Project Description  
+
 Welcome to Cinema, a robust and scalable movie management system built using Java Spring Boot. This project provides a structured backend architecture that efficiently handles movie-related operations such as adding, updating, deleting, and retrieving movies.
 
 🚀 Features
