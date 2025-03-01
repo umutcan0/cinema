@@ -20,13 +20,13 @@ Welcome to Cinema, a robust and scalable movie management system built using Jav
 📁 Project Structure
 
 Cinema
-│── advice          # Custom exception handling and global error advice
-│── controller      # REST controllers to handle API requests
-│── dto            # Data Transfer Objects for structured data handling
-│── entity         # JPA entities representing database models
-│── exception      # Custom exceptions for better error handling
-│── repository     # JPA repositories for data access
-│── service        # Business logic layer implementing core functionality
+│── advice          # Custom exception handling and global error advice  
+│── controller      # REST controllers to handle API requests  
+│── dto            # Data Transfer Objects for structured data handling  
+│── entity         # JPA entities representing database models  
+│── exception      # Custom exceptions for better error handling  
+│── repository     # JPA repositories for data access  
+│── service        # Business logic layer implementing core functionality  
 
 
 🛠 Technologies Used
