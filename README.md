@@ -21,7 +21,7 @@ Welcome to Cinema, a robust and scalable movie management system built using Jav
 
 📁 Project Structure
 
-Cinema
+Cinema  
 │── advice          # Custom exception handling and global error advice  
 │── controller      # REST controllers to handle API requests  
 │── dto            # Data Transfer Objects for structured data handling  
@@ -87,12 +87,10 @@ Feel free to fork this project and submit a pull request! If you have suggestion
 
 This project is licensed under the MIT License.
 
+
 📌 Author
 
-Umut Can BAL - Java |Spring Boot - Backend Developer | Passionate about Microservices & Scalable Applications
-
-📌 Connect with me on LinkedIn - https://www.linkedin.com/in/umutcanbal/
-📌 Connect with me on Gmail - umutcanbal123@gmail.com
+Umut Can BAL - Java |Spring Boot - Backend Developer | Passionate about Microservices & Scalable Applications  
 
 🎬 Happy Coding! 🚀
 
